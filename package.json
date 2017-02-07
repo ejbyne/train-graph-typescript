@@ -1,0 +1,25 @@
+{
+  "name": "trains-graph",
+  "version": "1.0.0",
+  "description": "Calculating routes and distances between nodes on a graph",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib --ignore '**/*.test.js'",
+    "lint": "eslint -c .eslintrc src",
+    "start": "npm run build && node lib/index.js",
+    "test": "mocha --opts mocha.opts"
+  },
+  "author": "EJB",
+  "devDependencies": {
+    "@types/mocha": "^2.2.38",
+    "@types/node": "^7.0.4",
+    "babel-cli": "^6.22.2",
+    "babel-preset-latest": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "eslint": "^3.14.0",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.2.0",
+    "unexpected": "^10.22.2"
+  }
+}

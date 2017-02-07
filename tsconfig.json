@@ -1,0 +1,14 @@
+{
+  "sourceMap": true,
+  "inlineSources": true,
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "target": "ES5",
+    "allowJs": true,
+    "lib": ["es7"]
+  },
+  "include": [
+    "src/**/*",
+    "./typings/*.d.ts"
+  ]
+}
